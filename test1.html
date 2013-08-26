@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		<link rel="stylesheet" type="text/css"  href="css/style.css"/>
+                <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/requestAnimFrame.js"></script>
+		<script type="text/javascript" src="js/physics/Physics.js"></script>
+		<script type="text/javascript" src="js/physics/shapes.js"></script>
+		<script type="text/javascript" src="js/physics/test.js"></script>
+	</head>
+
+	<body>
+                <div class="header">
+					<h3>HTML5 experiment - By <a href='http://weibo.com/khhhshhh?topnav=1&wvr=5' target='_blank'>SYSU-DJH</a></h3>
+                  <p>
+                    add添加一个移动<br/>
+                    reduce去除一个移动<br/>
+                    clear清除所有移动<br/>
+                    在Tail的输入框中输入1试试看<br/>
+                    Rotate模式下鼠标在页面上点击一点，移动会绕着点转圈；在Fall模式下移动模拟重力下降<br/>
+                    <br/>
+                    试试:<br/>
+                    1.Rotate模式下,在画布最边缘处点击一下<br/>
+                    2.Fall模式,Tail为1<br/>
+                    3.Rotate模式，Tail为1<br/>
+                    <br/>
+                    by Maxcell-NDD <b><a href='http://weibo.com/khhhshhh?topnav=1&wvr=5' target='_blank' id='link'>DJH</a></b>
+                  </p>
+                </div>
+		<div id="wapper">
+			<div class="button">
+				<button id="switch" >Rotate</button>
+				<button id="add" >add</button>
+                                <button id="reduce" >reduce</button>
+				<button id="clear" >clear</button>
+                          	Tail :<input type="text" id = "tail" value = "0.05" width = "50px">
+                          	Sum :<span>10</span>
+			</div>
+			<canvas id="canvas" width="1060px" height="800px">
+			恭喜你！！！！你的代码全写对了，但是你的浏览器版本太低，看不到小礼物~~~<br/>
+                        请用firefox，chrome，safari，或者IE9+来浏览<br/>
+                        Maxcell网络发展部（NDD），期待你的加入~~~
+			</canvas>
+		</div>
+		<p id="show"></p>
+	</body>
+        <script type='text/javascript'>
+        	$('#link').click(function(e){
+                	e.stopPropagation();
+                });
+        </script>
+</html>

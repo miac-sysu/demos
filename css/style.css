@@ -1,0 +1,98 @@
+*{
+	font-family:cursive,arial;
+	margin:0;
+	padding:0;
+        
+}
+body {
+	background:#000;
+	color:#fff;
+}
+div.header {
+	/*width:1060px;*/
+        margin:0 auto;
+	overflow:hidden;
+	text-align:center;
+	height:80px;
+        line-height:80px;
+        color:#000;
+        background:#efefef;  
+        /*box-shadow:4px 4px 4px #ccc;
+        /*opacity:0.2;*/
+}
+div.header:hover {
+	cursor:pointer;
+}
+div.header h1{
+	
+}
+div.header p {
+	margin:0 12%;
+	text-align:left;
+        line-height:120%;
+}
+#how {
+	position:relative;
+        left:0;
+        top:0;
+	width:100px;
+        height:50px;
+	background:#ffa;
+        line-height:50px;
+        border-radius:6px;
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+}
+#wapper {
+	overflow:hidden;
+	width:1060px;
+	margin:0 auto;
+/*	background:#ffa;*/
+}
+
+#canvas {
+	display:block;
+	background:#fff;
+	margin:0 auto;
+}
+
+div.button{
+	/*float:left;*/
+        overflow:hidden;
+        margin:10px auto;
+	width:100%;
+        line-height:30px;
+        border-radius:6px;
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+       
+}
+div.button button {
+	border:solid 1px #000;
+        display:block;
+        float : left;
+	width:150px;
+	height:40px;
+        margin-right:10px;
+         border-radius:6px;
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+        
+	/*margin-bottom:10px;*/
+	/*float:left;*/
+}
+div.button button:hover {
+	/*background:#000;*/
+        color:#000;
+        opacity:0.5;
+        font-size:20px;
+}
+
+input {
+	width : 100px;
+        height: 25px;
+        background:#ffa;
+         border-radius:6px;
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+}
